@@ -1,0 +1,114 @@
+/*   
+	Theme Name: Virtus
+	Theme URL: http://alemaciell.com.br
+	Description: Css desenvolvido para o Virtus
+	Author: AleMaciell
+	Author URI: http://alemaciell.com.br
+*/
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700|Open+Sans:300,400,700&display=swap');
+body{font-family: 'Open Sans', sans-serif;}
+h1, h2, h3,h4,h5{font-family: 'Nunito', sans-serif;}
+a{color:#86b922}
+a:hover{text-decoration:none;color:#006330}
+a:focus{outline:none;outline-offset:0}
+textarea:hover,input:hover,textarea:active,input:active,textarea:focus,input:focus{outline:0!important}
+hr.space{background:#fff none repeat scroll 0 0;color:#fff;visibility:hidden}
+hr{background:#e5e7ed none repeat scroll 0 0;border:medium none;clear:both;color:#ddd;float:none;height:1px;margin:0 0 1.45em;width:100%}
+.hidden-lg{display:none}
+.btn-primary_w{background:#fff;border:1px solid #fff;padding:10px 25px; color: #388FEC;}
+.btn-primary_o{background:#388FEC;border:1px solid #388FEC;padding:10px 25px; color: #fff;}
+.btn-primary_w:hover{background:#04799E;border:1px solid #317EC4;color: #fff;}
+.btn-primary_o:hover{background:#04799E;border:1px solid #317EC4;color: #fff;}
+.header{padding:20px 0}
+.header .logo_header{max-height:40px;}
+.intro{background:#fff url(../../assets/img/bg_intro.png);background-size:cover;color:#fff;min-height:680px}
+.intro .title{font-size:37px;max-width:520px;margin:0}
+.intro p.desc{font-size:18px;margin:0;max-width:610px;padding:25px 0}
+.intro .pulse {display: inline-block;width: 100px;height: 100px;border-radius: 50%;background: #388FEC;cursor: pointer;box-shadow: 0 0 0 rgba(0,136, 188, 0.4);animation: pulse 1s infinite;border: 8px solid #3DCDF9;text-align: center;margin-bottom: 20px;}
+.intro .pulse i {color: #fff;font-size: 30px;padding: 27px 0 0 10px;}
+.intro .pulse:hover {animation: none;}
+.session{padding:80px 0}
+.session .subtitle{color:#505050;font-size:30px;position:relative;margin-bottom:20px;display:block;line-height:50px;padding-bottom: 20px}
+.session .subtitle::after{position:absolute;left:50%;margin-left:-50px;width:100px;height:3px;background:#388FEC;bottom:0;content:""}
+.session .subitem{margin:20px 0;color:#388FEC;font-size:24px}
+.session .desc{color:#6c6c6c}
+.session_produtos .icones{height: 70px}
+.session_produtos .editor{height: 400px}
+.session_plataforma{background:#f6f6f6}
+.session_plataforma p{font-size:15px}
+.session_plataforma ul{list-style-type:none;margin:0;padding:0}
+.session_plataforma h3{color:#388FEC}
+.session_plataforma ul li{font-size:15px}
+.session_plataforma ul li i{color:#388FEC}
+.session_implantacao{background:#388FEC url(../../assets/img/bg_implantacao.png);background-size:cover;color:#fff;min-height:350px}
+.session_implantacao .subtitle{color:#fff}
+.session_implantacao .subtitle::after{background:#fff}
+.session_implantacao .icones{height: 70px}
+.session_download{color:#fff;padding: 0px;}
+.session_download .subtitle{color:#fff}
+.session_download .subtitle::after{background:#fff}
+.b_footer{background:#388FEC url(../../assets/img/bg_b_footer.png) no-repeat;background-size:cover;padding:40px 0}
+.b_footer .link{color:#fff;display:block;padding:20px 0;border-radius:5px}
+.b_footer .link .fa{font-size:30px;margin-bottom:20px}
+.b_footer .link:hover{background:rgba(255,255,255,.1)}
+.footer{background:#388FEC;padding:20px 0}
+.footer .text_footer{color: #fff;margin: 0;}
+.video{color: #fff;text-transform: uppercase;font-size: 24px;}
+.video:hover{color: #fff;}
+.fixed-top{background:#fff;border-bottom:1px solid #eee;}
+#beneficios{border-bottom:1px solid #eee;}
+@-webkit-keyframes pulse {
+	0% {-webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0.4);}
+	70% {-webkit-box-shadow: 0 0 0 10px rgba(255,255,255, 0);}
+	100% {-webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0);}
+}
+@keyframes pulse {
+	0% {-moz-box-shadow: 0 0 0 0 rgba(255,255,255, 0.4);box-shadow: 0 0 0 0 rgba(255,255,255, 0.4);}
+	70% {-moz-box-shadow: 0 0 0 10px rgba(255,255,255, 0);box-shadow: 0 0 0 10px rgba(255,255,255, 0);}
+	100% {-moz-box-shadow: 0 0 0 0 rgba(255,255,255, 0);box-shadow: 0 0 0 0 rgba(255,255,255, 0);}
+}
+@media (max-width: 480px) {
+.header{padding: 20px 0;}
+.hidden-md{display:block}
+.intro{min-height:400px;text-align:center}
+.intro .title{font-size: 22px;padding-top: 20px;}
+.intro p.desc{font-size:14px}
+.session .subtitle{line-height:36px}
+.session .subtitle::after{bottom:-20px}
+.offset-1, .offset-2, .offset-3, .offset-4, .offset-5{margin:0}
+.session_plataforma{text-align:center}
+.session_plataforma img{width:120px}
+.video{text-align:center}
+}
+#logo{
+float: left;
+}
+#menu-itens{
+float: right;
+padding-top:10px
+}
+#menu-itens ul {
+width: 100%;
+height: auto;
+padding: 2px;
+margin: 0;
+list-style: none; 
+/* remove os pontinhos antes dos itens */
+}
+#menu ul li {
+display: inline-block;
+margin-right: 2px;
+}
+#menu ul li a {
+padding: 2px 2px;
+margin-left: 2px;
+color: #388FEC;
+}
+#menu ul li a:hover { 
+color: #388FEC;
+border-bottom: 2px solid #388FEC;
+}
+.active {
+color: #388FEC;
+border-bottom: 2px solid #388FEC;
+}

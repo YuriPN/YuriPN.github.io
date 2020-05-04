@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <title>FlyEditor | Editor de texto inteligente</title>
+        <link rel="icon" type="image/png" href="assets/fav/favicon-32x32.png" sizes="32x32" />
+        <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+        <meta name="msapplication-square70x70logo" content="assets/fav/mstile-70x70.png" />
+        <meta name="msapplication-square150x150logo" content="assets/fav/mstile-150x150.png" />
+        <meta name="msapplication-wide310x150logo" content="assets/fav/mstile-310x150.png" />
+        <meta name="msapplication-square310x310logo" content="assets/fav/mstile-310x310.png" />
+        <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css" />
+    </head>
+    <body>
+        <div class="header fixed-top">
+            <div class="container">
+                <div class="row">
+                    <nav class="col-md-12" id="menu">
+						<ul>
+							<div class="col-md-5" id="logo">
+								<a href="#">
+		                            <img width="300" class="logo_header" src="assets/img/logo_horizontal.svg" alt="" />
+		                        </a>
+	                    	</div>
+	                        <div class="col-md-6" id="menu-itens">
+								<li> <a class="btn-menu" href="#produtos">Como funciona</a></li>       
+								<li> <a class="btn-menu" href="#plataforma">Funcionalidades</a></li>
+								<li> <a class="btn-menu" href="#servicos">Tecnologias</a></li>
+								<li> <a class="btn-menu" href="#contato">Contato</a></li>
+							</div>
+						</ul>
+					</nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="intro d-flex align-items-center">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-6">
+                        <h1 class="title">Edição de texto inteligente</h1>
+                        <h1 class="title">Integre facilmente</h1>
+                        <h1 class="title">Baixa curva de aprendizado</h1>
+                        <p class="desc">O FlyEditor é uma solução que facilita o desenvolvimento de sistemas que necessitam de recursos avançados de edição de texto.</p>
+                        <a href="#contato" class="btn btn-primary_w">Quero testar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="produtos" class="session session_produtos scroll">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="subtitle">Editor de texto rico</h2>
+                        <div id="app">
+                            <fly-editor-embedded
+                                token-acesso="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaXN0ZW1hSWQiOiI1ZThjZTMyZjgzZDc5YzAwMTg4OWNkODkiLCJkb2N1bWVudG9JZCI6IjVlYTgyMWRhZDFlNGI1MDAxOGNhZTNkNiIsInVzdWFyaW8iOnsibm9tZSI6IlVzdcOhcmlvIFRlc3RlIiwidGlwbyI6IkNMSUVOVEUifSwicGVybWlzc29lcyI6WyJEb2N1bWVudG8uRWRpdGFyIiwiRG9jdW1lbnRvLlZpc3VhbGl6YXIiLCJEb2N1bWVudG8uQ29tZW50YXJpbyJdLCJ2ZXJzaW9uYXIiOnRydWUsInBlcmlvZG9EdXJhY2FvVG9rZW4iOiIxMGQiLCJpYXQiOjE1ODgwNzcwMTgsImV4cCI6MTU4ODk0MTAxOH0.S151GYolPWI877rGetyega2Bmy3qUYaN8i-NqRUpZqo" 
+                                dominio="http://editor.clm.efcaz.com.br" 
+                                redirect-u-r-l="editor-embedded"
+                                height="900px"
+                                width="100%"
+                            ></fly-editor-embedded>
+                        </div>
+                        <hr class="space" />
+                        <hr class="space" />
+                        <p class="desc">O FlyEditor é uma ferramenta fácil de instalar e simples de integrar em seus projetos, caso você seja um desenvolvedor web.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="plataforma" class="session session session_plataforma">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="subtitle">Instalação com poucas linhas de código</h2>
+                    </div>
+                    
+                    <hr class="space" />
+
+                    <div class="offset-2 col-md-3">
+                        <img style="width: 170px;" src="assets/img/lapis.png" alt="">
+                    </div>
+
+                    <hr class="hidden-lg hidden-md space" />
+                    
+                    <div class="col-md-5">
+                        <h3 class="">Tudo que você precisa arrebentar com seu software!</h3>
+                        <hr class="space" />
+                        <ul>
+                            <li><i class="fa fa-check"></i> Criação de Modelos de Documentos</li>
+                            <li><i class="fa fa-check"></i> Criação de Índices e Subíndices </li>
+                            <li><i class="fa fa-check"></i> Importação de docx </li>
+                            <li><i class="fa fa-check"></i> Customização de Cabeçalho e Rodapé dos Documentos</li>
+                            <li><i class="fa fa-check"></i> Impressão dos documentos em pdf</li>
+                            <li><i class="fa fa-check"></i> Impressão dos documentos em docx</li>
+                            <li><i class="fa fa-check"></i> Utilização de palavras chave</li>
+                            <li><i class="fa fa-check"></i> Criação de Cláusulas Pétreas</li>
+                            <li><i class="fa fa-check"></i> Versionamento de documentos</li>
+                            <li><i class="fa fa-check"></i> Comentários e respostas no texto</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="beneficios" class="session">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="subtitle">Completo para desenvolvedores</h2>
+                    </div>
+
+                    <hr class="space" />
+                    <hr class="space" />
+                    <hr class="space" />
+                    <hr class="space" />
+
+                    <div class="col-md-4 text-center">
+                        <img style="width: 100px;" src="assets/img/reducao.png" alt="">
+                        <h3 class="subitem">Aumente sua Produtividade</h3>
+                        <p class="desc">Faça mais projetos em um número menor de tempo, executando suas tarefas reaproveitando código.</p>
+                    </div>
+                    
+                    <hr class="hidden-lg hidden-md space" />
+                    
+                    <div class="col-md-4 text-center">
+                        <img style="width: 100px;" src="assets/img/produtividade.png" alt="">
+                        <h3 class="subitem">Customizado por cliente</h3>
+                        <p class="desc">Utilize o editor de texto em vários projetos de clientes diferentes de forma customizada.</p>
+                    </div>
+                    
+                    <hr class="hidden-lg hidden-md space" />
+
+                    <div class="col-md-4 text-center">
+                        <img style="width: 100px;" src="assets/img/seguranca.png" alt="">
+                        <h3 class="subitem">Usuários e Funções do Usuário</h3>
+                        <p class="desc">Aplicar perfis de acesso por usuário ou usar as funções dos usuários do para controle de ferramentas do editor de texto.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="servicos" class="session session_implantacao">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="subtitle">Pronto para trabalhar com as principais tecnologias</h2>
+                    </div>
+
+                    <hr class="space" />
+                    <hr class="space" />
+
+                    <div class="col-md-4 text-center">
+                        <img class="icones" src="assets/img/logo_vue.png" alt="" />
+                        <hr class="space" />
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img class="icones" src="assets/img/logo_node.png" alt="" />
+                        <hr class="space" />
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img class="icones" src="assets/img/logo_npm.png" alt="" />
+                        <hr class="space" />
+                    </div>
+
+                    <hr class="space" />
+                    <hr class="space" />
+
+                    <div class="col-md-8 offset-2 text-center">
+                        <a href="#contato" class="btn btn-primary_w">Quero testar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contato" class="session">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="subtitle">Comece os testes agora!</h2>
+                    </div>
+
+                    <hr class="space" />
+
+                    <div class="col-md-6 offset-3">
+                        <!-- Formulário -->
+                        <style>body {background-color: transparent !important; } </style>
+                        <!-- <link rel='stylesheet' href='https://blob.llimages.com/machine-files/all-css/form-ll.css'> -->
+                        <form action="https://paginas.rocks/Pages/Index/382309" method="post" >  
+                        <input id="id" name="id" type="hidden" value="382309" />  
+                        <input id="pid" name="pid" type="hidden" value="14213544" />  
+                        <input id="list_id" name="list_id" type="hidden" value="382309" />  
+                        <input id="provider" name="provider" type="hidden" value="leadlovers" />    
+                        <input class="form-control form-ll" id="email" name="email" placeholder="Informe o seu email" type="text" />
+                        <hr class="space" />
+                        <input class="form-control form-ll" id="name" name="name" placeholder="Informe o seu nome" type="text"  />   
+                        <hr class="space" />
+                        <input class="form-control form-ll" id="phone" name="phone" placeholder="Informe o telefone" type="text" />   
+                        <hr class="space" />
+                        <input class="form-control form-ll" id="company" name="company" placeholder="Informe o nome da empresa" type="text" /> 
+                        <hr class="space" />  
+                        <textarea class="form-control form-ll" id="message" name="message" placeholder="Digite uma mensagem ou pergunta" maxlength="500" style="height: 80px; resize: none;"></textarea>  
+                        <hr class="space" />
+                        <div class="text-center">
+                            <button class="btn btn-danger" style="padding: 10px 40px; margin:15px 0 5px; background-color: rgba(56, 143, 236, 1); border-color: rgba(56, 143, 236, 1) !important; " type="submit">Quero testar</button>  
+                        </div>
+                        <input type="hidden" id="source" name="source" value="" />  
+                        <img src="https://llimages.com/redirect/redirect.aspx?A=V&p=14213544&m=382309" style="display: none;" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="col-md-12 text-center">
+                    <p class="text_footer">
+                        <img width="130" class="img_footer" src="assets/img/logo_horizontal_branco.svg" alt="" /> | (67) 3303-2719
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v5.5.0/css/all.css"></script>
+        <script src="assets/js/jquery.fancybox.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/vue"></script>
+        <script src="https://cdn.jsdelivr.net/npm/flyeditorembedded@1.0.2/dist/flyeditorembedded.umd.js"></script>
+    </body>
+
+	<script>
+        new Vue({
+          el: '#app',
+          components:{
+            flyeditorembedded
+          }
+        })
+		// Identificar o clique no menu
+		// Verificar o item que foi clicado e fazer referência com o alvo
+		// Verificar a distância entre o alvo e o topo
+		// Animar o scroll até o alvo
+
+		const menuItems = document.querySelectorAll('#menu-itens a[href^="#"]');
+
+		function getScrollTopByHref(element) {
+			const id = element.getAttribute('href');
+			return document.querySelector(id).offsetTop - 50;
+		}
+
+		function scrollToPosition(to) {
+		  // Caso queira o nativo apenas
+			// window.scroll({
+			// top: to,
+			// behavior: "smooth",
+			// })
+		  smoothScrollTo(0, to);
+		}
+
+		function scrollToIdOnClick(event) {
+			event.preventDefault();
+			const to = getScrollTopByHref(event.currentTarget);
+			scrollToPosition(to);
+		}
+
+		menuItems.forEach(item => {
+			item.addEventListener('click', scrollToIdOnClick);
+		});
+
+		// Caso deseje suporte a browsers antigos / que não suportam scroll smooth nativo
+		/**
+		 * Smooth scroll animation
+		 * @param {int} endX: destination x coordinate
+		 * @param {int) endY: destination y coordinate
+		 * @param {int} duration: animation duration in ms
+		 */
+		function smoothScrollTo(endX, endY, duration) {
+		  const startX = window.scrollX || window.pageXOffset;
+		  const startY = window.scrollY || window.pageYOffset;
+		  const distanceX = endX - startX;
+		  const distanceY = endY - startY;
+		  const startTime = new Date().getTime();
+
+		  duration = typeof duration !== 'undefined' ? duration : 400;
+
+		  // Easing function
+		  const easeInOutQuart = (time, from, distance, duration) => {
+		    if ((time /= duration / 2) < 1) return distance / 2 * time * time * time * time + from;
+		    return -distance / 2 * ((time -= 2) * time * time * time - 2) + from;
+		  };
+
+		  const timer = setInterval(() => {
+		    const time = new Date().getTime() - startTime;
+		    const newX = easeInOutQuart(time, startX, distanceX, duration);
+		    const newY = easeInOutQuart(time, startY, distanceY, duration);
+		    if (time >= duration) {
+		      clearInterval(timer);
+		    }
+		    window.scroll(newX, newY);
+		  }, 1000 / 60); // 60 fps
+		};
+
+		var btnContainer = document.getElementById("menu-itens");
+		var btns = btnContainer.getElementsByClassName("btn-menu");
+		for (var i = 0; i < btns.length; i++) {
+		  btns[i].addEventListener("click", function() {
+		  	
+		    var current = document.getElementsByClassName("active");
+		    if(current[0] != undefined){
+		    	current[0].className = current[0].className.replace(" active", "");
+			}
+		    this.className += " active";
+		  });
+		}
+
+	</script>
+
+</html>
